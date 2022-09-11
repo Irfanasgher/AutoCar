@@ -1,0 +1,26 @@
+/* Footer CSS Start */
+footer {
+	background-color: #000000;
+	opacity: 0.8;
+}
+footer.page-footer .logo img {
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 70px;
+}
+footer.page-footer .list-data h5 {
+	color: #ffffff;
+}
+footer.page-footer .list-data ul li {
+	padding-top: 15px;
+}
+footer.page-footer .list-data ul li a {
+	/* color: #afaaaa; */
+	text-decoration: none;
+	color: white;
+}
+footer.page-footer .footer-copyright {
+	color: white;
+	background-color: #f20902;
+}
+/* Footer CSS End */

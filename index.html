@@ -1,0 +1,1321 @@
+<html>
+    <head>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css" >
+
+     <!-- Font Awesome Library -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.css"
+     integrity="sha256-9k8SaL3OvbJuSwya0P4muLM6m1aIkW7dEcapU29A5KQ="
+     crossorigin="anonymous"
+   />
+    <!-- Data AOS Library  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Car Project</title>
+    </head>
+    <body>
+    <!-- Navbar Start -->
+    <div id="nav">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand pl-md-5" href="index.html">
+                    <p>logo Here</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item px-4">
+                            <a class="nav-link active" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link" href="#">Saved Searchers</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Favourite</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Research</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0 px-4">
+                        <a class="button my-2 my-sm-0 px-4 p-2" href="contactUs.html" type="submit" href="contactUs.html">Contact us</a>
+                    </form> -->
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Navbar End -->
+
+
+    <!-- Header Part Start Here  -->
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                   
+                </div>
+                <div class="col-md-8 text-center">
+                    <h1>Search Millions of Cars For Sale</h1>
+                    <!-- <p>Search multiple new & used car websites in one easy search. We help out to find your dream car</p> -->
+                    <div class="search mb-5">
+                        <div class="location">
+                            <div class="jsx-1741806325 location-text-block">
+                                <div class="location-text">
+                                    <img src="https://web-assets-production.autolist.com/_next/public/static/images/home/location-icon-23dad2039bc311f7ab24a4c57d56ae19.svg" alt="Location" class="jsx-1741806325">Searching In</div>
+                            </div>
+                            <form action="/listings" class="jsx-1741806325">
+                                <div data-location-input="true" class="jsx-244365979 default">Lahore, PB</div>
+                            </form>
+                        </div>
+                        <div class="type">
+                            <div class="type-label">Search By</div>
+                            <!-- Button triger Model  -->
+                            <button class="jsx-2881544814 " data-toggle="modal" data-target="#exampleModal">New</button>
+                            <button class="jsx-2881544814 " data-toggle="modal" data-target="#exampleModalLong">Used</button>
+
+                            <!-- Body Style Model  -->
+                            <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title " id="exampleModalLabel">Auto Lists</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <div class="row">
+                                        <div class="col-md-4">
+                                            <a href="carList.html">
+                                                <img src="assets/body-style/convertible-d785b54e291983ddddb5cc9a77b097ea.jpg">
+                                                <h5 class="sub-title">Convertibles</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="carList.html">
+                                                <img src="assets/body-style/coupe-c2537fbd4c1454fac39677efa7963162.jpg">
+                                                <h5 class="sub-title">Coupes</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="carList.html">
+                                                <img src="assets/body-style/minivan-fca09dc53b023ee63955aaf2375e197c.jpg">
+                                                <h5 class="sub-title">Hatchbacks</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        
+                                        <div class="col-md-4">
+                                            <a href="carList.html">
+                                                <img src="assets/body-style/hybrid-3b20df62c05acf2510f70e89658fc84b.jpg">
+                                                <h5 class="sub-title">Hybrids</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="carList.html">
+                                                <img src="assets/body-style/luxury-2d2a3cf9885c94e4a644cd67bd934bd8.jpg">
+                                                <h5 class="sub-title">Luxury</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="carList.html">
+                                                <img src="assets/body-style/minivan-fca09dc53b023ee63955aaf2375e197c.jpg">
+                                                <h5 class="sub-title">Minivans</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <a href="carList.html">
+                                                <img src="assets/body-style/sedan-9097eb987b50c2c0079d0c067437c58e.jpg">
+                                                <h5 class="sub-title">Sedans</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="carList.html">
+                                                <img src="assets/body-style/suv-25aca4dbb19046d96fb2dca30461b0dd.jpg">
+                                                <h5 class="sub-title">SUVs</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="carList.html">
+                                                <img src="assets/body-style/truck-4e973104e0e75337bbf87fb3f822cf1e.jpg">
+                                                <h5 class="sub-title">Trucks</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                                </div>
+                              </div>
+                             <!-- Body Style Model End  -->
+                             <!-- Make Model  -->
+                             <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="input-group">
+                                              <input type="text" class="form-control" placeholder="Search">
+                                              <div class="input-group-btn">
+                                                <button class="btn btn-default" type="submit">
+                                                  <i class="glyphicon glyphicon-search"></i>
+                                                </button>
+                                              </div>
+                                            </div>
+                                          </form>
+                                          <hr>
+                                          <div class="row">
+                                              <div class="col-md-12">
+                                                  <ul>
+                                                      <li>
+                                                      
+                                                          <a class="btn"data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
+                                                          <img src="./assets/brands/acura-logo.png">
+                                                           <h4>Acura</h4> 
+                                                        </a>
+                                                        <div class="collapse" id="collapseExample">
+                                                            <div class="card card-body">
+                                                             <ul class="sub">
+                                                                 <h3>Popular Models</h3>
+                                                                 <li><a href="carList.html">ILX</a></li>
+                                                                 <li><a href="carList.html">MDX</a></li>
+                                                                 <li><a href="carList.html">NSX</a></li>
+                                                                 <li><a href="carList.html">RDX</a></li>
+                                                                 <li><a href="carList.html">RL</a></li>
+                                                                 <li><a href="carList.html">RLX</a></li>
+                                                                 <li><a href="carList.html">RSX</a></li>
+                                                                 <li><a href="carList.html">TL</a></li>
+                                                                 <li><a href="carList.html">TLX</a></li>
+                                                                 <li><a href="carList.html">TSX</a></li>
+                                                                 <li><a href="carList.html">TSX Sport Wagon</a></li>
+                                                                 <li><a href="carList.html">ZDX</a></li>
+                                                                 <li><a href="carList.html" style="font-weight: bolder;">ALL</a></li>
+                                                                 <li><a href="carList.html">CL</a></li>
+                                                                 <li><a href="carList.html">ILX</a></li>
+                                                                 <li><a href="carList.html">Integra</a></li>
+                                                                 <li><a href="carList.html">Legend</a></li>
+                                                                 <li><a href="carList.html">MDX</a></li>
+                                                                 <li><a href="carList.html">NSX</a></li>
+                                                                 <li><a href="carList.html">RDX</a></li>
+                                                                 <li><a href="carList.html">RL</a></li>
+                                                                 <li><a href="carList.html">RLX</a></li>
+                                                                 <li><a href="carList.html">RSX</a></li>
+                                                                 <li><a href="carList.html">SLX</a></li>
+                                                                 <li><a href="carList.html">TL</a></li>
+                                                                 <li><a href="carList.html">TLX</a></li>
+                                                                 <li><a href="carList.html">TSX</a></li>
+                                                                 <li><a href="carList.html">TSX Sport Wagon</a></li>
+                                                                 <li><a href="carList.html">Vigon</a></li>
+                                                                 <li><a href="carList.html">ZDX</a></li>
+                                                             </ul>
+                                                            </div>
+                                                          </div>                                                          
+                                                        
+                                                    </li>                                                        
+                                                        <li>                                                           
+                                                            <a class="btn"data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample" >
+                                                                <img src="./assets/brands/alfa.jpg">
+                                                                 <h4>Alfa Romeo</h4> 
+                                                              </a>
+                                                              <div class="collapse" id="collapseExample1">
+                                                                  <div class="card card-body">
+                                                                   <ul class="sub">
+                                                                       <h3>POPULAR MODELS</h3>
+                                                                       <li><a href="carList.html">164</a></li>
+                                                                       <li><a href="carList.html">8C Competizione</a></li>
+                                                                       <li><a href="carList.html">Giulia Quadrifoglio</a></li>
+                                                                       <li><a href="carList.html">Stelvio Quadrifoglio</a></li>
+                                                                       <li><a href="carList.html" style="font-weight: bolder;">ALL</a></li>
+                                                                       <li><a href="carList.html">164</a></li>
+                                                                       <li><a href="carList.html">4C</a></li>
+                                                                       <li><a href="carList.html">8C Competizione</a></li>
+                                                                       <li><a href="carList.html">Giulia</a></li>
+                                                                       <li><a href="carList.html">Giulia Quadrifoglio</a></li>
+                                                                       <li><a href="carList.html">Milano</a></li>
+                                                                       <li><a href="carList.html">Spider</a></li>
+                                                                       <li><a href="carList.html">Stevio</a></li>
+                                                                       <li><a href="carList.html">Stevio Quadrifolio</a></li>
+                                                                   </ul>
+                                                                  </div>
+                                                               </div>                                                            
+                                                        </li>                                                        
+                                                        <li>
+                                                            <a class="btn"data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" >
+                                                                <img src="./assets/brands/general.png">
+                                                                 <h4>AM General</h4> 
+                                                              </a>
+                                                              <div class="collapse" id="collapseExample2">
+                                                                  <div class="card card-body">
+                                                                   <ul class="sub">
+                                                                       <li><a href="carList.html" style="font-weight: bolder;">ALL</a></li>
+                                                                       <li><a href="carList.html">Hummer</a></li>
+                                                                   </ul>
+                                                                  </div>
+                                                                </div>
+                                                          </li>
+                                                          <li>
+                                                            <a class="btn"data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" >
+                                                                <img src="./assets/brands/aston-martin-logo-1972.jpg">
+                                                                 <h4>Aston Martin</h4> 
+                                                              </a>
+                                                              <div class="collapse" id="collapseExample3">
+                                                                  <div class="card card-body">
+                                                                   <ul class="sub">
+                                                                       <h3>POPULAR MODELS</h3>
+                                                                       <li><a href="carList.html">DBS</a></li>
+                                                                       <li><a href="carList.html">Rapide</a></li>
+                                                                       <li><a href="carList.html">Rapide AMR</a></li>
+                                                                       <li><a href="carList.html">Rapide S</a></li>
+                                                                       <li><a href="carList.html">V12 Vanquish</a></li>
+                                                                       <li><a href="carList.html">V12 Vantage</a></li>
+                                                                       <li><a href="carList.html">V8 Vantage</a></li>
+                                                                       <li><a href="carList.html">Vanquish</a></li>
+                                                                       <li><a href="carList.html">Virage</a></li>
+                                                                       <li><a href="carList.html" style="font-weight: bolder;">ALL</a></li>
+                                                                       <li><a href="carList.html">DB11</a></li>
+                                                                       <li><a href="carList.html">DB11</a></li>
+                                                                       <li><a href="carList.html">DB7</a></li>
+                                                                       <li><a href="carList.html">DB9</a></li>
+                                                                       <li><a href="carList.html">DBS</a></li>
+                                                                       <li><a href="carList.html">Rapide</a></li>
+                                                                       <li><a href="carList.html">Rapide AMR</a></li>
+                                                                       <li><a href="carList.html">Rapide S</a></li>
+                                                                       <li><a href="carList.html">V12 Vanquish</a></li>
+                                                                       <li><a href="carList.html">V12 Vantage</a></li>
+                                                                       <li><a href="carList.html">V12 Vantage S</a></li>
+                                                                       <li><a href="carList.html">V8 Vantage</a></li>
+                                                                       <li><a href="carList.html">Vanquish</a></li>
+                                                                       <li><a href="carList.html">Vanquish S</a></li>
+                                                                       <li><a href="carList.html">Vantage</a></li>
+                                                                       <li><a href="carList.html">Virage</a></li>
+                                                                   </ul>
+                                                                  </div>
+                                                                </div>
+                                                          </li>
+                                                          <li>
+                                                           
+                                                            <a class="btn"data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample" >
+                                                                <img src="./assets/brands/audi.png">
+                                                                 <h4>Audi</h4> 
+                                                              </a>
+                                                              <div class="collapse" id="collapseExample4">
+                                                                  <div class="card card-body">
+                                                                   <ul class="sub">
+                                                                       <h3>POPULAR MODELS</h3>
+                                                                       <li><a href="carList.html">A3</a></li>
+                                                                       <li><a href="carList.html">A4</a></li>
+                                                                       <li><a href="carList.html">A5</a></li>
+                                                                       <li><a href="carList.html">A6</a></li>
+                                                                       <li><a href="carList.html">A6 allroad</a></li>
+                                                                       <li><a href="carList.html">A8</a></li>
+                                                                       <li><a href="carList.html">allroad quattro</a></li>
+                                                                       <li><a href="carList.html">e-tron</a></li>
+                                                                       <li><a href="carList.html">Q3</a></li>
+                                                                       <li><a href="carList.html">Q5</a></li>
+                                                                       <li><a href="carList.html">Q5 Hybrid</a></li>
+                                                                       <li><a href="carList.html">Q7</a></li>
+                                                                       <li><a href="carList.html">Q8</a></li>
+                                                                       <li><a href="carList.html">R8</a></li>
+                                                                       <li><a href="carList.html">RS 5</a></li>
+                                                                       <li><a href="carList.html">RS 5 Sportback</a></li>
+                                                                       <li><a href="carList.html">RS Q8</a></li>
+                                                                       <li><a href="carList.html">S4</a></li>
+                                                                       <li><a href="carList.html">S5</a></li>
+                                                                       <li><a href="carList.html">S6</a></li>
+                                                                       <li><a href="carList.html">S7</a></li>
+                                                                       <li><a href="carList.html">S8</a></li>
+                                                                       <li><a href="carList.html">SQ5</a></li>
+                                                                       <li><a href="carList.html">SQ6</a></li>
+                                                                       <li><a href="carList.html">SQ7</a></li>
+                                                                       <li><a href="carList.html">SQ8</a></li>
+                                                                       <li><a href="carList.html">TT</a></li>
+                                                                       <li><a href="carList.html">TT RS</a></li>
+                                                                       <li><a href="carList.html">TTS</a></li>
+                                                                       <li><a href="carList.html" style="font-weight: bolder;">ALL</a></li>
+                                                                       <li><a href="carList.html">100</a></li>
+                                                                       <li><a href="carList.html">200</a></li>
+                                                                       <li><a href="carList.html">4000</a></li>
+                                                                       <li><a href="carList.html">5000</a></li>
+                                                                       <li><a href="carList.html">80</a></li>
+                                                                       <li><a href="carList.html">90</a></li>
+                                                                       <li><a href="carList.html">A3</a></li>
+                                                                       <li><a href="carList.html">A3 Sportback e-tron</a></li>
+                                                                       <li><a href="carList.html">A4</a></li>
+                                                                       <li><a href="carList.html">A4 allroad</a></li>
+                                                                       <li><a href="carList.html">A5 Sportback</a></li>
+                                                                       <li><a href="carList.html">A6</a></li>
+                                                                       <li><a href="carList.html">A6 allroad</a></li>
+                                                                       <li><a href="carList.html">A7</a></li>
+                                                                       <li><a href="carList.html">A8</a></li>
+                                                                       <li><a href="carList.html">A8 L</a></li>
+                                                                       <li><a href="carList.html">allroad quattro</a></li>
+                                                                       <li><a href="carList.html">Cabriolet</a></li>
+                                                                       <li><a href="carList.html">Coupe</a></li>
+                                                                       <li><a href="carList.html">e-tron</a></li>
+                                                                       <li><a href="carList.html">Q3</a></li>
+                                                                       <li><a href="carList.html">Q5</a></li>
+                                                                       <li><a href="carList.html">Q5 Hybrid</a></li>
+                                                                       <li><a href="carList.html">Q7</a></li>
+                                                                       <li><a href="carList.html">Q8</a></li>
+                                                                       <li><a href="carList.html">RS 3</a></li>
+                                                                       <li><a href="carList.html">RS 4</a></li>
+                                                                       <li><a href="carList.html">RS 5</a></li>
+                                                                       <li><a href="carList.html">RS 5 Sportback</a></li>
+                                                                       <li><a href="carList.html">RS 6</a></li>
+                                                                       <li><a href="carList.html">RS 7</a></li>
+                                                                       <li><a href="carList.html">S3</a></li>
+                                                                       <li><a href="carList.html">S4</a></li>
+                                                                       <li><a href="carList.html">S5</a></li>
+                                                                       <li><a href="carList.html">S5 Sportback</a></li>
+                                                                       <li><a href="carList.html">S6</a></li>
+                                                                       <li><a href="carList.html">S7</a></li>
+                                                                       <li><a href="carList.html">S8</a></li>
+                                                                       <li><a href="carList.html">S8 plus</a></li>
+                                                                       <li><a href="carList.html">SQ5</a></li>
+                                                                       <li><a href="carList.html">SQ7</a></li>
+                                                                       <li><a href="carList.html">SQ8</a></li>
+                                                                       <li><a href="carList.html">TT</a></li>
+                                                                       <li><a href="carList.html">TT RS</a></li>
+                                                                       <li><a href="carList.html">TTS</a></li>
+                                                                       <li><a href="carList.html">V8</a></li>                                                                      
+                                                                   </ul>
+                                                                  </div>
+                                                                </div> 
+                                                            
+                                                        </li>
+                                                        
+                                                          <li>
+                                                            <a class="btn"data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample" >
+                                                                <img src="./assets/brands/Genesis-logo-4096x1638.jpg">
+                                                                 <h4>Bentley</h4> 
+                                                              </a>
+                                                              <div class="collapse" id="collapseExample5">
+                                                                  <div class="card card-body">
+                                                                   <ul class="sub">
+                                                                       <h3>Popular Models</h3>
+                                                                       <li><a href="carList.html">Arnage</a></li>
+                                                                       <li><a href="carList.html">Azure</a></li>
+                                                                       <li><a href="carList.html">Azure T</a></li>
+                                                                       <li><a href="carList.html">Brooklands</a></li>
+                                                                       <li><a href="carList.html">Continental Flying Spur</a></li>
+                                                                       <li><a href="carList.html">Continental Flying Spur Speed</a></li>
+                                                                       <li><a href="carList.html">Continental GT</a></li>
+                                                                       <li><a href="carList.html">Continental GTC</a></li>
+                                                                       <li><a href="carList.html">Continental GTC Speed</a></li>
+                                                                       <li><a href="carList.html">Continental GTC V8</a></li>
+                                                                       <li><a href="carList.html">Continental GT Speed</a></li>
+                                                                       <li><a href="carList.html">Continental GT V8</a></li>
+                                                                       <li><a href="carList.html">Continental GT V8 S</a></li>
+                                                                       <li><a href="carList.html">Continental Supersports</a></li>
+                                                                       <li><a href="carList.html">Flying Spur</a></li>
+                                                                       <li><a href="carList.html">Mulsanne</a></li>
+                                                                       <li><a href="carList.html" style="font-weight: bolder;">ALL</a></li>
+                                                                       <li><a href="carList.html">Arnage</a></li>
+                                                                       <li><a href="carList.html">Azure</a></li>
+                                                                       <li><a href="carList.html">Azure T</a></li>
+                                                                       <li><a href="carList.html">Bentayga</a></li>
+                                                                       <li><a href="carList.html">Bentayga W12</a></li>
+                                                                       <li><a href="carList.html">Brooklands</a></li>
+                                                                       <li><a href="carList.html">Continental</a></li>
+                                                                       <li><a href="carList.html">Continental Flying Spur</a></li>
+                                                                       <li><a href="carList.html">Continental Flying Spur Speed</a></li>
+                                                                       <li><a href="carList.html">Continental GT</a></li>
+                                                                       <li><a href="carList.html">Continental GT3-R</a></li>
+                                                                       <li><a href="carList.html">Continental GTC</a></li>
+                                                                       <li><a href="carList.html">Continental GTC Speed</a></li>
+                                                                       <li><a href="carList.html">Continental GTC V8</a></li>
+                                                                       <li><a href="carList.html">Continental GTC V8 S</a></li>
+                                                                       <li><a href="carList.html">Continental GT V8</a></li>
+                                                                       <li><a href="carList.html">Continental Supersports</a></li>
+                                                                       <li><a href="carList.html">Flying Spur</a></li>
+                                                                       <li><a href="carList.html">Flying Spur V8</a></li>
+                                                                       <li><a href="carList.html">Flying Spur W12</a></li>
+                                                                       <li><a href="carList.html">Mulsanne</a></li>
+                                                                       <li><a href="carList.html">Mulsanne Speed</a></li>                                                                      
+                                                                   </ul>
+                                                                  </div>
+                                                                </div>
+                                                          </li>                                                          
+                                                  </ul>
+                                                  
+                                              </div>
+                                             
+                                          </div>
+                                          
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Make Model End  -->
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+            
+    </div>
+<!-- Header Part End Here  -->
+
+<!-- Prices Section Start Here -->
+<div id="price">
+    <div class="container">
+        
+        <h5 class="text-center">PRICES</h5>
+        <div class="row pt-5 text-center">
+            <div class="col-md-3 mt-5" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <div class="card  py-5">
+                    <h3>UNDER $1000</h3>
+                    <!-- <h6>Auto List</h6> -->
+                    <br>
+            <a href="#" class="card-title">Pickup Trucks under $1,000</a>
+            <a href="#" class="card-title">SUVs under $1,000</a>
+            <a href="#" class="card-title">Minivans under $1,000</a>
+            <a href="#" class="card-title">All cars under $1,000</a>
+                    <!-- <button  class="px-2 py-1 mt-3">Try for free</button> -->
+                </div>
+            </div>
+            <div class="col-md-3 mt-5" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <div class="card  py-5">
+                    <h3>UNDER $2000</h3>
+                    <!-- <h6>Auto List</h6> -->
+                    <br>
+            <a href="#" class="card-title">Pickup Trucks under $2,000</a>
+            <a href="#" class="card-title">SUVs under $2,000</a>
+            <a href="#" class="card-title">Minivans under $2,000</a>
+            <a href="#" class="card-title">All cars under $2,000</a>
+                    <!-- <button  class="px-2 py-1 mt-3">Try for free</button> -->
+                </div>
+            </div>
+            <div class="col-md-3 mt-5" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <div class="card  py-5">
+                    <h3>UNDER $3000</h3>
+                    <!-- <h6>Auto List</h6> -->
+                    <br>
+            <a href="#" class="card-title">Pickup Trucks under $3,000</a>
+            <a href="#" class="card-title">SUVs under $3,000</a>
+            <a href="#" class="card-title">Minivans under $3,000</a>
+            <a href="#" class="card-title">All cars under $3,000</a>
+                    <!-- <button  class="px-2 py-1 mt-3">Try for free</button> -->
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-5" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <div class="card  py-5">
+                    <h3>UNDER $5000</h3>
+                    <!-- <h6>Auto List</h6> -->
+                    <br>
+            <a href="#" class="card-title">Pickup Trucks under $5,000</a>
+            <a href="#" class="card-title">SUVs under $5,000</a>
+            <a href="#" class="card-title">Minivans under $5,000</a>
+            <a href="#" class="card-title">All cars under $5,000</a>
+                    <!-- <button  class="px-2 py-1 mt-3">Try for free</button> -->
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="row pt-5 text-center">
+            
+            <div class="col-md-3 mt-5" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <div class="card  py-5">
+                    <h3>UNDER $10,000</h3>
+                    <!-- <h6>Auto List</h6> -->
+                    <br>
+            <a href="#" class="card-title">Pickup Trucks under $10,000</a>
+            <a href="#" class="card-title">SUVs under $10,000</a>
+            <a href="#" class="card-title">Minivans under $10,000</a>
+            <a href="#" class="card-title">All cars under $10,000</a>
+                    <!-- <button  class="px-2 py-1 mt-3">Try for free</button> -->
+                </div>
+            </div>
+            <div class="col-md-3 mt-5" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <div class="card  py-5">
+                    <h3>UNDER $15,000</h3>
+                    <!-- <h6>Auto List</h6> -->
+                    <br>
+                    <a href="#" class="card-title">Pickup Trucks under $15,000</a>
+                    <a href="#" class="card-title">SUVs under $15,000</a>
+                    <a href="#" class="card-title">Minivans under $15,000</a>
+                    <a href="#" class="card-title">All cars under $15,000</a>
+                    <!-- <button  class="px-2 py-1 mt-3">Try for free</button> -->
+                </div>
+            </div>
+            <div class="col-md-3 mt-5" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <div class="card  py-5">
+                    <h3>UNDER $20,000</h3>
+                    <!-- <h6>Auto List</h6> -->
+                    <br>
+                    <a href="#" class="card-title">Pickup Trucks under $20,000</a>
+                    <a href="#" class="card-title">SUVs under $20,000</a>
+                    <a href="#" class="card-title">Minivans under $20,000</a>
+                    <a href="#" class="card-title">All cars under $20,000</a>
+                    <!-- <button  class="px-2 py-1 mt-3">Try for free</button> -->
+                </div>
+            </div>
+            <div class="col-md-3 mt-5" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <div class="card  py-5">
+                    <h3>UNDER $25,000</h3>
+                    <!-- <h6>Auto List</h6> -->
+                    <br>
+                    <a href="#" class="card-title">Pickup Trucks under $25,000</a>
+                    <a href="#" class="card-title">SUVs under $25,000</a>
+                    <a href="#" class="card-title">Minivans under $25,000</a>
+                    <a href="#" class="card-title">All cars under $25,000</a>
+                    <!-- <button  class="px-2 py-1 mt-3">Try for free</button> -->
+                </div>
+            </div>
+            
+            
+        </div>
+    <!-- <div class="card-deck mt-5">
+        <div class="card">
+          <img class="card-img-top" src="./assets/price/under1k-0db8f7a0de76f955ee145cb3617e653d.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <a href="#" class="card-title">Pickup Trucks under $1,000</a><br>
+            <a href="#" class="card-title">SUVs under $1,000</a><br>
+            <a href="#" class="card-title">Minivans under $1,000</a><br>
+            <a href="#" class="card-title">ALL CARS UNDER $1,000</a>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./assets/price/under2k-555b0130da22a3cdae3061cb37e7ccc1.jpg" alt="Card image cap">
+
+          <div class="card-body text-center">
+            <a href="#" class="card-title">Pickup Trucks under $2,000</a><br>
+            <a href="#" class="card-title">SUVs under $2,000</a><br>
+            <a href="#" class="card-title">Minivans under $2,000</a><br>
+            <a href="#" class="card-title">ALL CARS UNDER $2,000</a>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./assets/price/under3k-4d2e9f463e522bd288878d0482c058a9.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <a href="#" class="card-title">Pickup Trucks under $3,000</a><br>
+            <a href="#" class="card-title">SUVs under $3,000</a><br>
+            <a href="#" class="card-title">Minivans under $3,000</a><br>
+            <a href="#" class="card-title">ALL CARS UNDER $3,000</a>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./assets/price/under4k-c051acf062907b7c932a5ee9a7c6d487.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <a href="#" class="card-title">Pickup Trucks under $4,000</a><br>
+            <a href="#" class="card-title">SUVs under $4,000</a><br>
+            <a href="#" class="card-title">Minivans under $4,000</a><br>
+            <a href="#" class="card-title">ALL CARS UNDER $4,000</a>
+          </div>
+        </div>
+    </div>
+    <div class="card-deck mt-5">
+        <div class="card">
+            <img class="card-img-top" src="./assets/price/under5k-293358f254cf8806bbfe338d9c7fa992.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <a href="#" class="card-title">Pickup Trucks under $5,000</a><br>
+            <a href="#" class="card-title">SUVs under $5,000</a><br>
+            <a href="#" class="card-title">Minivans under $5,000</a><br>
+            <a href="#" class="card-title">ALL CARS UNDER $5,000</a>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./assets/price/under10k-6c682be92c23775945c5babb71ca7f4b.jpg" alt="Card image cap">
+
+          <div class="card-body text-center">
+            <a href="#" class="card-title">Pickup Trucks under $10,000</a><br>
+            <a href="#" class="card-title">SUVs under $10,000</a><br>
+            <a href="#" class="card-title">Minivans under $10,000</a><br>
+            <a href="#" class="card-title">ALL CARS UNDER $10,000</a>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./assets/price/under15k-ebc3c938238e18af3a7958c236ca8343.jpg" alt="Card image cap">
+          <div class="card-body text-center ">
+            <a href="#" class="card-title">Pickup Trucks under $15,000</a><br>
+            <a href="#" class="card-title">SUVs under $15,000</a><br>
+            <a href="#" class="card-title">Minivans under $15,000</a><br>
+            <a href="#" class="card-title">ALL CARS UNDER $15,000</a>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./assets/price/under20k-12c6f75caaf4d5b267621baca08f2f0c.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <a href="#" class="card-title">Pickup Trucks under $20,000</a><br>
+            <a href="#" class="card-title">SUVs under $20,000</a><br>
+            <a href="#" class="card-title">Minivans under $20,000</a><br>
+            <a href="#" class="card-title">ALL CARS UNDER $20,000</a>
+          </div>
+        </div>
+    </div> -->
+    </div>
+</div>
+<!-- Prices Section End Here -->
+
+
+<!-- Body Style Section Start from here -->
+<div id="body-style">
+    <div class="container mt-5">
+        <h5 class="text-center">BODY STYLES</h5>
+        <div class="col-md-10">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="./images/Cars images/sedans.png" style="object-fit: contain; height: 110px;">
+                    <h3>Sedans</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/Cars images/coupes.png" style="object-fit: contain; height: 110px;">
+                    <h3>Coupes</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/Cars images/wagons.webp" style="object-fit: contain; height: 110px;">
+                    <h3>Wagons</h3>
+                </div>  
+            </div>
+
+            <div class="row mt-5 text-center">               
+                <div class="col-md-4">
+                    <img src="./assets/body-style/convertible-d785b54e291983ddddb5cc9a77b097ea.jpg" style="object-fit: contain; height: 110px;">
+                    <h3>Convertibles</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/Cars images/trucks.png" style="object-fit: contain; height: 110px;">
+                    <h3>Trucks</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/Cars images/SUVs.png" style="object-fit: contain; height: 110px;">
+                    <h3>SUVs</h3>
+                </div>
+    
+            </div>
+
+            <div class="row mt-5 text-center">               
+                <div class="col-md-4 text-center">
+                    <img src="./images/Cars images/minivans.png" style="object-fit: contain; height: 110px;">
+                    <h3>Minivans</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/Cars images/crossovers.webp" style="object-fit: contain; height: 110px;">
+                    <h3>Crossovers</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/Cars images/luxury.png" style="object-fit: contain; height: 110px;">
+                    <h3>Luxury</h3>
+                </div>    
+            </div>
+
+            <div class="row mt-5 text-center">
+            
+                <div class="col-md-4">
+                    <img src="./images/Cars images/CPO.png" style="object-fit: contain; height: 110px;">
+                    <h3>CPO</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/Cars images/Sports.png" style="object-fit: contain; height: 110px;">
+                    <h3>Sports</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/Cars images/Hybrids.jpg" style="object-fit: contain; height: 110px;">
+                    <h3>Hybrids</h3>
+                </div>
+    
+            </div>
+
+        </div>
+        
+    </div>
+    
+</div>
+<!-- Body Style Section End here -->
+
+<!-- Popular section start here  -->
+<div id="popular">
+    <div class="container mt-5">
+        <h5 class="text-center mb-3">POPULAR</h5>
+    <div class="row">
+        <div class="offset-md-3 col-md-9">
+            <table style="width: 100%; margin-left: 5%;" class="table table-striped">
+                <tr>
+                    <td>Acura MDX</td>
+                    <td>Chevrolet Camaro</td>
+                    <td>Chevrolet Impala</td>
+                    <td>Chevrolet Tahoe</td>
+                </tr>
+                <tr >
+                    <td>Dodge Charger</td>
+                    <td>Ford Escape</td>
+                    <td>Ford F-250</td>
+                    <td>Gmc Yukon</td>
+                </tr>
+                <tr>
+                    <td>Honda Odyssey</td>
+                    <td>Jeep Wrangler</td>
+                    <td>Mini Cooper</td>
+                    <td>Subaru Forester</td>
+                </tr>
+                <tr >
+                    <td>Bmw X5</td>
+                    <td>Chevrolet Colorado</td>
+                    <td>Chevrolet Malibu</td>
+                    <td>Chevrolet Traverse</td>
+                </tr>
+                <tr>
+                    <td>Dodge Durango</td>
+                    <td>Ford Expedition</td>
+                    <td>Ford Mustang</td>
+                    <td>Honda Accord</td>
+                </tr>
+                <tr >
+                    <td>Honda Pilot</td>
+                    <td>Kia Sorento</td>
+                    <td>Nissan Altima</td>
+                    <td>Subaru Outback</td>
+                </tr>
+
+                <tr>
+                    <td>Buick Enclave</td>
+                    <td>Chevrolet Corvette</td>
+                    <td>Chevrolet Silverado 1500</td>
+                    <td>Chrysler 300</td>
+                </tr>
+                <tr >
+                    <td>Dodge Ram-1500</td>
+                    <td>Ford Explorer</td>
+                    <td>Ford Ranger</td>
+                    <td>Honda Civic</td>
+                </tr>
+
+                <tr>
+                    <td>Jeep Cherokee</td>
+                    <td>Land Rover Range Rover</td>
+                    <td>Nissan Rogue</td>
+                    <td>Subaru Wrx</td>
+                </tr>
+                <tr >
+                    <td>Cadillac Escalade</td>
+                    <td>Chevrolet Equinox</td>
+                    <td>Chevrolet Suburban</td>
+                    <td>Dodge Challenger</td>
+                </tr>
+
+                <tr>
+                    <td>Ford Edge</td>
+                    <td>Ford F-150</td>
+                    <td>Gmc Acadia</td>
+                    <td>Honda CR-V</td>
+                </tr>
+                <tr >
+                    <td>Jeep Grand Cherokee</td>
+                    <td>Mini Convertible</td>
+                    <td>Porsche 911</td>
+                    <td>Toyota 4Runner</td>
+                </tr>
+
+                <tr>
+                    <td>Toyota Camry</td>
+                    <td>Toyota Prius</td>
+                    <td>Toyota Tundra</td>
+                    <td>Toyota Corolla</td>
+                </tr>
+                <tr >
+                    <td>Toyota Rav4</td>
+                    <td>Volkswagen Beetle</td>
+                    <td>Toyota Highlander</td>
+                    <td>Toyota Sienna</td>
+                </tr>
+                <tr >
+                    <td>Volkswagen Golf</td>
+                    <td>Toyota Land Cruiser</td>
+                    <td>Toyota Tacoma</td>
+                    <td>Volkswagen Jetta</td>
+                </tr>
+            </table>   
+        </div>     
+    </div>
+</div>
+    
+</div>
+<!-- Popular section End Here  -->
+
+<!-- Cities Section start from here  -->
+<div id="cities">
+    <div class="container mt-3">
+        <h3 class="text-center mb-3">CITIES</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="./assets/cities/albany-ny-7277576d286b94649d6a0b448deaecd3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Albany, NY</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                     <a href="https://www.honda.com.pk/" target="_blank" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="./assets/cities/atlanta-ga-86d183d873d9b04a45f4de4cb2482572.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Atlanta, GA</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                     <a href="https://www.honda.com.pk/" target="_blank" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="./assets/cities/austin-tx-88d558a7bc13b664385677043e5e1305.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Austin, TX</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                     <a href="https://www.honda.com.pk/" target="_blank" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="./assets/cities/bakersfield-ca-e684fe1c092d39eab059ac9a41d58e2f.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title"> Bakersfield, CA</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                     <a href="https://www.honda.com.pk/" target="_blank" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="./assets/cities/columbus-oh-e8958ee73920078d37908bba7099a160.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Columbus, OH</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                     <a href="https://www.honda.com.pk/" target="_blank" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="./assets/cities/denver-co-f3ccc6bbcf485a50ba304cd8c3e91239.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Denver, CO</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                     <a href="https://www.honda.com.pk/" target="_blank" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="./assets/cities/fort-wayne-in-4f7b8838d4339cc922cd983970aa1acc.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Fort Wayne, IN</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                     <a href="https://www.honda.com.pk/" target="_blank" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="./assets/cities/fresno-ca-19a3aa3f19f4f2258c2de3098bd303e9.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title"> Fresno, CA</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <a href="https://www.honda.com.pk/" target="_blank" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+        <!-- <div class="row">
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">Albany, NY</h3>
+                <img src="./assets/cities/albany-ny-7277576d286b94649d6a0b448deaecd3.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Atlanta, GA
+                </h3>
+                <img src="./assets/cities/atlanta-ga-86d183d873d9b04a45f4de4cb2482572.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Austin, TX
+                </h3>
+                <img src="./assets/cities/austin-tx-88d558a7bc13b664385677043e5e1305.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Bakersfield, CA
+                </h3>
+                <img src="./assets/cities/bakersfield-ca-e684fe1c092d39eab059ac9a41d58e2f.jpg" alt="" style="border-radius: 10px;">
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Columbus, OH
+                </h3>
+                <img src="./assets/cities/columbus-oh-e8958ee73920078d37908bba7099a160.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Denver, CO
+                </h3>
+                <img src="./assets/cities/denver-co-f3ccc6bbcf485a50ba304cd8c3e91239.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Fort Wayne , IN
+                </h3>
+                <img src="./assets/cities/fort-wayne-in-4f7b8838d4339cc922cd983970aa1acc.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Fresno, CA
+                </h3>
+                <img src="./assets/cities/fresno-ca-19a3aa3f19f4f2258c2de3098bd303e9.jpg" alt="" style="border-radius: 10px;">
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Hartford, CT
+                </h3>
+                <img src="./assets/cities/hartford-ct-a2c58b7e9afdfab4fecd466093f6ae85.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Houston, TX
+                </h3>
+                <img src="./assets/cities/houston-tx-5d76c80f37fc38c2effa895280edb34a.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Las Vegas, NV
+                </h3>
+                <img src="./assets/cities/las-vegas-nv-efef0b5fccb1a212bef89ec5a24b6d0c.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Memphis, TN
+                </h3>
+                <img src="./assets/cities/memphis-tn-69b18f557c38a8b2097637d6eaaf9f23.jpg" alt="" style="border-radius: 10px;">
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Miami, FL
+                </h3>
+                <img src="./assets/cities/miami-fl-d7222093bff891ec26bfe4413edbf5b2.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    New York, NY
+                </h3>
+                <img src="./assets/cities/new-york-ny-4c2e2c95130e4813e0f30c7e2bbdeb9e.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Phoenix, AZ
+                </h3>
+                <img src="./assets/cities/phoenix-az-165f45079881385c29f5db33ebddd58e.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Raleigh, NC
+                </h3>
+                <img src="./assets/cities/raleigh-nc-e397a54e6ba6c053f7985b679e467e19.jpg" alt="" style="border-radius: 10px;">
+            </div>
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Sacramento, CA
+                </h3>
+                <img src="./assets/cities/sacramento-ca-5af99cda51342e77feeebd57bfe2225d.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Springfield, MA
+                </h3>
+                <img src="./assets/cities/springfield-ma-9e1488b7a1e694a62f98382e2c263bb3.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Springfield, MO
+                </h3>
+                <img src="./assets/cities/springfield-mo-ea2dbc76f7ae7237b373a5a357b2eb6f.jpg" alt="" style="border-radius: 10px;">
+            </div>
+            <div class="col-md-3 img" style="position: relative;">
+                <h3 style="position: absolute; color: white; opacity: 1; z-index: 1111;left: 25%; top: 35%;">
+                    Tampa, FL
+                </h3>
+                <img src="./assets/cities/tampa-fl-ac55e78f49df017706ecd920531368d3.jpg" alt="" style="border-radius: 10px;">
+            </div>
+        </div> -->
+    </div>
+</div>
+
+
+<!-- Cities Section End from here  -->
+
+<!-- Top Models By Year section start here  -->
+<div id="models-by-year">
+    <div class="container mt-5">
+        <h5 class="text-center mb-3">TOP MODELS BY YEAR</h5>
+    <div class="row">
+        <div class="col-md-9">
+            <table style="width: 100%; margin-left: 5%;" class="table table-striped">
+                <tr>
+                    <td>2010 Chevy Camaro</td>
+                    <td>2015 Dodge Charger</td>
+                    <td>2014 Honda Accord</td>
+                    <td>2016 Honda Civic</td>
+                </tr>
+                <tr >
+                    <td>2015 Jeep Grand Cherokee</td>
+                    <td>2016 Nissan Maxima</td>
+                    <td>2016 Chevy Camaro</td>
+                    <td>2013 Honda Accord</td>
+                </tr>
+                <tr>
+                    <td>2014 Chevy Camaro</td>
+                    <td>2016 Ford Explorer</td>
+                    <td>2015 Honda Accord</td>
+                    <td>2016 Honda Pilot</td>
+                </tr>
+                <tr >
+                    <td>2014 Chevy Camaro</td>
+                    <td>2016 Ford Explorer</td>
+                    <td>2015 Honda Accord</td>
+                    <td>2016 Honda Pilot</td>
+                </tr>
+                <tr>
+                    <td>2015 Nissan Altima</td>
+                    <td>2015 Nissan Rogue</td>
+                    <td>2015 Honda Civic</td>
+                    <td>2019 Jeep Compass</td>
+                </tr>
+                <tr >
+                    <td>2015 Chevy Camaro</td>
+                    <td>2015 Ford F-150</td>
+                    <td>2016 Honda Accord</td>
+                    <td>2015 Hyundai Sonata</td>
+                </tr>
+                <tr>
+                    <td>2013 Nissan Altima</td>
+                    <td>2015 Toyota Camry</td>
+                    <td>2016 Nissan Altima</td>
+                    <td>2016 Toyota Tacoma</td>
+                </tr>
+            </table>   
+        </div> 
+    </div>
+</div>
+    
+</div>
+<!-- Top Models By Year section End Here  -->
+
+<!-- Top Models By City section start here  -->
+<div id="models-by-city" style="padding-bottom: 200px;">
+    <div class="container mt-5">
+        <h5 class="text-center mb-3">TOP MODELS BY City</h5>
+    <div class="row">
+        <table style="width: 100%; margin-left: 5%;" class="table table-striped">
+            <tr>
+                <td>Chevrolet Camaro in Atlanta, GA</td>
+                <td>Chevrolet Camaro in Miami, FL</td>
+                <td>Dodge Challenger in Los Angeles, CA</td>
+            </tr>
+            <tr >
+                <td>Ford Mustang in Houston, TX</td>
+                <td>Honda Accord in Los Angeles, CA</td>
+                <td>Chevrolet Camaro in Los Angeles, CA</td>                
+            </tr>
+            <tr >
+                <td>Chevrolet Camaro in Houston, TX</td>
+                <td>Chevrolet Silverado 1500 in Houston, TX</td>
+                <td>Dodge Challenger in Miami, FL</td>
+            </tr>
+            <tr >
+                <td>Ford Mustang in Las Vegas, NV</td>
+                <td>Honda Accord in Miami, FL</td>
+                <td>Dodge Charger in Houston, TX</td>
+            </tr>
+            <tr >                
+                <td>Dodge Charger in Los Angeles, CA</td>
+                <td>Dodge Challenger in Las Vegas, NV</td>
+                <td>Ford F 150 in Las Vegas, NV</td>
+            </tr>
+            <tr >                
+                <td>Ford Mustang in Atlanta, GA</td>
+                <td>Chevrolet Camaro in Las Vegas, NV</td>
+                <td>Dodge Challenger in Atlanta, GA</td>
+            </tr>
+            <tr >                
+                <td>Dodge Charger in Atlanta, GA</td>
+                <td>Ford F-150 in Houston, TX</td>
+                <td>Ford Mustang in Los Angeles, CA</td>
+            </tr>
+            <tr >                
+                <td>Honda Civic in Las Vegas, NV</td>
+                <td>Ford Mustang in Miami, FL</td>
+                <td>Toyota Corolla in Miami, FL</td>
+            </tr>
+        </table>       
+    </div>
+</div>
+    
+</div>
+<!-- Top Models By City section End Here  -->
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+    <div class="container text-center text-md-left">
+        <div class="row">
+            <div class="col-md-3 offset-md-1 mt-md-0 mt-3 logo" data-aos="fade-up"
+                data-aos-duration="1500">
+                <a href="index.html">
+                    Logo Here
+                </a>
+            </div>
+    
+            <hr class="clearfix w-100 d-md-none pb-3">
+    
+           
+            <div class="col-md-8 mb-md-0 mb-3 list-data">
+                <div class="row" data-aos="fade-right"
+                data-aos-duration="1500"> 
+                    <div class="col-md-4 mt-md-0 mt-5">
+                        <h5 class="text-uppercase">About us</h5>
+    
+                        <ul class="list-unstyled">
+                            <li>
+                            <a href="#!">Engineering</a>
+                            </li>
+                            <li>
+                            <a href="#!">News and Analysis</a>
+                            </li>
+                            <li>
+                            <a href="#!">Contact</a>
+                            </li>
+                            <li>
+                            <a href="#!">Dealer Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mt-md-0 mt-5">
+                        <h5 class="text-uppercase">Careers</h5>
+    
+                        <ul class="list-unstyled">
+                            <li>
+                            <a href="index.html">Our Team</a>
+                            </li>
+                            <li>
+                            <a href="price.html">Guides and Reviews</a>
+                            </li>
+                            <li>
+                            <a href="#!">Scholorship</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mt-md-0 mt-5">
+                        <h5 class="text-uppercase">ABOUT</h5>
+    
+                        <ul class="list-unstyled">
+                            <li>
+                            <a href="#!">Autolist is building a better automotive buying experience for everyone</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-4">Copyrights 2020. Auto Cars <br class="d-md-none d-block"><br class="d-md-none d-block">
+        <span class="ml-md-5">
+            <a class="fb-ic">
+                <i class="fab fa-facebook-square fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="ins-ic">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+        </span>
+            
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+<!-- Data AOS Library Links -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+    </body>
+</html>
